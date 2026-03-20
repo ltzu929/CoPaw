@@ -104,7 +104,6 @@ docker run -p 127.0.0.1:8088:8088 \
    - 下载最新版本：https://github.com/agentscope-ai/CoPaw/releases
    - 重新安装
 
-
 升级后重启服务 copaw app。
 
 ### CoPaw服务如何启动及初始化
