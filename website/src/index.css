@@ -590,6 +590,15 @@ button {
   animation: mermaid-placeholder-shimmer 1.6s ease-in-out infinite;
 }
 
+@media (prefers-reduced-motion: reduce) {
+  .mermaid-diagram__placeholder {
+    animation: none;
+    background-position:
+      0 0,
+      0 0,
+      0 0;
+  }
+}
 .mermaid-diagram__content {
   width: 100%;
 }
