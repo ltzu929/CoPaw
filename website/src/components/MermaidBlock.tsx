@@ -180,7 +180,7 @@ export function MermaidBlock({ chart }: MermaidBlockProps) {
   return (
     <div
       className={`mermaid-diagram${isRendering ? " is-loading" : ""}`}
-      style={{ minHeight: `${reservedHeight}px` }}
+      style={isRendering ? { minHeight: `${reservedHeight}px` } : undefined}
     >
       {isRendering ? (
         <div className="mermaid-diagram__placeholder" aria-hidden="true" />
